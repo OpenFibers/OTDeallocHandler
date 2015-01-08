@@ -14,6 +14,7 @@
 		42134CB51A5E5CEB0009BDEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42134CB41A5E5CEB0009BDEE /* Images.xcassets */; };
 		42134CB81A5E5CEB0009BDEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42134CB61A5E5CEB0009BDEE /* LaunchScreen.xib */; };
 		42134CC41A5E5CEB0009BDEE /* OTDeallocHandlerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42134CC31A5E5CEB0009BDEE /* OTDeallocHandlerDemoTests.m */; };
+		42134CD01A5E5D350009BDEE /* NSObject+OTDeallocHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42134CCF1A5E5D350009BDEE /* NSObject+OTDeallocHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		42134CBD1A5E5CEB0009BDEE /* OTDeallocHandlerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTDeallocHandlerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42134CC21A5E5CEB0009BDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42134CC31A5E5CEB0009BDEE /* OTDeallocHandlerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTDeallocHandlerDemoTests.m; sourceTree = "<group>"; };
+		42134CCE1A5E5D350009BDEE /* NSObject+OTDeallocHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OTDeallocHandler.h"; sourceTree = "<group>"; };
+		42134CCF1A5E5D350009BDEE /* NSObject+OTDeallocHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OTDeallocHandler.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		42134C9B1A5E5CEB0009BDEE = {
 			isa = PBXGroup;
 			children = (
+				42134CCD1A5E5D000009BDEE /* OTDeallocHandler */,
 				42134CA61A5E5CEB0009BDEE /* OTDeallocHandlerDemo */,
 				42134CC01A5E5CEB0009BDEE /* OTDeallocHandlerDemoTests */,
 				42134CA51A5E5CEB0009BDEE /* Products */,
@@ -117,6 +121,15 @@
 				42134CC21A5E5CEB0009BDEE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42134CCD1A5E5D000009BDEE /* OTDeallocHandler */ = {
+			isa = PBXGroup;
+			children = (
+				42134CCE1A5E5D350009BDEE /* NSObject+OTDeallocHandler.h */,
+				42134CCF1A5E5D350009BDEE /* NSObject+OTDeallocHandler.m */,
+			);
+			path = OTDeallocHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				42134CB01A5E5CEB0009BDEE /* ViewController.m in Sources */,
 				42134CAD1A5E5CEB0009BDEE /* AppDelegate.m in Sources */,
+				42134CD01A5E5D350009BDEE /* NSObject+OTDeallocHandler.m in Sources */,
 				42134CAA1A5E5CEB0009BDEE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
