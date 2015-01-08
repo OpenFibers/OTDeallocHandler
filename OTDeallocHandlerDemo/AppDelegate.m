@@ -24,6 +24,22 @@
         NSLog(@"foo was dealloced");
         NSLog(@"Now foo is %@", weakFoo);
     };
+    
+    //Typical usage : remove observer
+//    foo.deallocHandler = ^{
+//        [[NSNotificationCenter defaultCenter] removeObserver:weakFoo];
+//    };
+    
+    //Typical usage : set delegate to nil after delegate dealloced.
+//    __weak id weakSelf = self;
+//    self.delegate.deallocHandler = ^{
+//        weakSelf.delegate = nil;
+//    };
+    
+    //Typical usage : remove assigned reference
+//    foo.deallocHandler = ^{
+//        [barArrayContainsWeakValues removeObject:weakFoo];
+//    };
     return YES;
 }
 
