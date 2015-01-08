@@ -21,6 +21,7 @@
     NSObject *foo = [[NSObject alloc] init];
     __weak NSObject *weakFoo = foo;
     foo.deallocHandler = ^{
+        //The two line NSLog will get called after foo dealloced
         NSLog(@"foo was dealloced");
         NSLog(@"Now foo is %@", weakFoo);
     };
