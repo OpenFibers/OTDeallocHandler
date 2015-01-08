@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		42134CAA1A5E5CEB0009BDEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42134CA91A5E5CEB0009BDEE /* main.m */; };
 		42134CAD1A5E5CEB0009BDEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42134CAC1A5E5CEB0009BDEE /* AppDelegate.m */; };
-		42134CB01A5E5CEB0009BDEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42134CAF1A5E5CEB0009BDEE /* ViewController.m */; };
-		42134CB31A5E5CEB0009BDEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42134CB11A5E5CEB0009BDEE /* Main.storyboard */; };
-		42134CB51A5E5CEB0009BDEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42134CB41A5E5CEB0009BDEE /* Images.xcassets */; };
-		42134CB81A5E5CEB0009BDEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42134CB61A5E5CEB0009BDEE /* LaunchScreen.xib */; };
 		42134CC41A5E5CEB0009BDEE /* OTDeallocHandlerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42134CC31A5E5CEB0009BDEE /* OTDeallocHandlerDemoTests.m */; };
 		42134CD01A5E5D350009BDEE /* NSObject+OTDeallocHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 42134CCF1A5E5D350009BDEE /* NSObject+OTDeallocHandler.m */; };
 /* End PBXBuildFile section */
@@ -33,11 +29,6 @@
 		42134CA91A5E5CEB0009BDEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42134CAB1A5E5CEB0009BDEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42134CAC1A5E5CEB0009BDEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42134CAE1A5E5CEB0009BDEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		42134CAF1A5E5CEB0009BDEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		42134CB21A5E5CEB0009BDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		42134CB41A5E5CEB0009BDEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		42134CB71A5E5CEB0009BDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		42134CBD1A5E5CEB0009BDEE /* OTDeallocHandlerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTDeallocHandlerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42134CC21A5E5CEB0009BDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42134CC31A5E5CEB0009BDEE /* OTDeallocHandlerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTDeallocHandlerDemoTests.m; sourceTree = "<group>"; };
@@ -87,11 +78,6 @@
 			children = (
 				42134CAB1A5E5CEB0009BDEE /* AppDelegate.h */,
 				42134CAC1A5E5CEB0009BDEE /* AppDelegate.m */,
-				42134CAE1A5E5CEB0009BDEE /* ViewController.h */,
-				42134CAF1A5E5CEB0009BDEE /* ViewController.m */,
-				42134CB11A5E5CEB0009BDEE /* Main.storyboard */,
-				42134CB41A5E5CEB0009BDEE /* Images.xcassets */,
-				42134CB61A5E5CEB0009BDEE /* LaunchScreen.xib */,
 				42134CA71A5E5CEB0009BDEE /* Supporting Files */,
 			);
 			path = OTDeallocHandlerDemo;
@@ -212,9 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42134CB31A5E5CEB0009BDEE /* Main.storyboard in Resources */,
-				42134CB81A5E5CEB0009BDEE /* LaunchScreen.xib in Resources */,
-				42134CB51A5E5CEB0009BDEE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +215,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42134CB01A5E5CEB0009BDEE /* ViewController.m in Sources */,
 				42134CAD1A5E5CEB0009BDEE /* AppDelegate.m in Sources */,
 				42134CD01A5E5D350009BDEE /* NSObject+OTDeallocHandler.m in Sources */,
 				42134CAA1A5E5CEB0009BDEE /* main.m in Sources */,
@@ -256,25 +238,6 @@
 			targetProxy = 42134CBE1A5E5CEB0009BDEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		42134CB11A5E5CEB0009BDEE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42134CB21A5E5CEB0009BDEE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		42134CB61A5E5CEB0009BDEE /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42134CB71A5E5CEB0009BDEE /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		42134CC51A5E5CEB0009BDEE /* Debug */ = {
