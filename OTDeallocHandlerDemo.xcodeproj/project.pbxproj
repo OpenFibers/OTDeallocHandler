@@ -391,6 +391,7 @@
 				42134CC91A5E5CEB0009BDEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42134CCA1A5E5CEB0009BDEE /* Build configuration list for PBXNativeTarget "OTDeallocHandlerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +400,7 @@
 				42134CCC1A5E5CEB0009BDEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
