@@ -42,6 +42,15 @@
 
 - (void)setDeallocHandler:(void (^)(void))deallocHandler
 {
+    //remove previous dealloc hander
+    ComOpenthreadOTDeallocHandlerDeallocingObject *previousObject = nil;
+    previousObject = objc_getAssociatedObject(self, OTDeallocHandlerDeallocingObjectKey);
+    if (previousObject)
+    {
+        previousObject.deallocHandler = nil;
+    }
+    
+    //add or replace new dealloc handler
     ComOpenthreadOTDeallocHandlerDeallocingObject *object = nil;
     if (deallocHandler)
     {
